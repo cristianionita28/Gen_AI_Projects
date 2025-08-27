@@ -13,3 +13,4 @@ Conclusion: roBERTA + LORA is much faster and with better accuracy, suprisingly!
 * LLM Model: roBERTa
 * Evaluation approach: epoch
 * Fine-tuning dataset: imdb
+* libraries used: from HugginFace
