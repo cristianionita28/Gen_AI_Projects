@@ -39,7 +39,22 @@ Accuracy on face recognintion with dlib and face_recognition model = 48%
 
 ---
 
-## Requirements
+## Run the notebook online
+
+### ▶️ Binder (recommended)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cristianionita28/Gen_AI_Projects/HEAD?urlpath=%2Fdoc%2Ftree%2FAI_Project_5_Face_Recognition%2FFace_recognition_SVC_vs_DLB.ipynb)
+
+https://mybinder.org/v2/gh/cristianionita28/Gen_AI_Projects/HEAD?urlpath=%2Fdoc%2Ftree%2FAI_Project_5_Face_Recognition%2FFace_recognition_SVC_vs_DLB.ipynb
+
+### ▶️ Google Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/USERNAME/REPO_NAME/blob/main/facerec.ipynb
+)
+
+
+
+## Requirements for local running
 Recommended environment (Python 3.9+):
 
 - numpy
@@ -51,7 +66,7 @@ Recommended environment (Python 3.9+):
 Install dependencies:
 
 conda/mamba env create -f environment.yaml
-conda/mamba activate genai_env
+conda/mamba activate base
 pip install -r requirments.txt
 
 Note: mamba is exactly like conda but has a solver which is 100 times faster. 
