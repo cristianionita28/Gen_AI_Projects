@@ -8,8 +8,9 @@ dependencies:
   - jupyterlab=4.4.4
   - ipywidgets
   - dlib
-  - matplotlib==3.6.2
+  - matplotlib
   - numpy==1.23.5
   - scikit-learn==1.3.0
   - pip:
     - face_recognition 
+
