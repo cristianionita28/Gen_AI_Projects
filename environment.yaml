@@ -3,7 +3,7 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.12
+  - python=3.9
   - setuptools
   - pip
   - wheel
@@ -18,3 +18,4 @@ dependencies:
       - matplotlib==3.6.2
       - numpy==1.23.5
       - scikit-learn==1.3.0
+
